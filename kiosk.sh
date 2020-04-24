@@ -6,7 +6,7 @@ xset -dpms
 
 unclutter -idle 1 &
 
-/usr/bin/chromium-browser --kiosk https://dakboard.com/screen/uuid/5e593d41-10d52e-38ba-830838551c0f
+/usr/bin/chromium-browser --kiosk https://dakboard.com/screen/uuid/<uuid-here>
 
 while true; do
 	xdotool keydown ctrl+r; xdotool keyup ctrl+r;
