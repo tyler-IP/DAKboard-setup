@@ -15,7 +15,7 @@ To setup the kiosk:
 
 1. run ```sudo apt install unclutter xdotool chromium-browser```
 
-2. Download kiosk.sh and kiosk.service from this repo
+2. Download kiosk.sh and kiosk.service from this repo and place them in the home directory
 
 3. run ```chmod 644 kiosk.service && chown root:root kiosk.service```
 
