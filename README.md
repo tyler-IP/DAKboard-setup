@@ -19,7 +19,7 @@ To setup the kiosk:
 
 3. run `chmod 644 kiosk.service && chown root:root kiosk.service`
 
-4. If the user is not ipadmin, run `nano kiosk.service`
+4. If the user is not ipadmin, run `nano kiosk.service` (`ctrl + x` then `y` to save.)
    - This will allow you to change the user it will run under. If the user is different from ipadmin, ensure that it is changed for ExecStart, User, & Group.
 
 5. run `sudo mv kiosk.service /lib/systemd/system/kiosk.service`
@@ -27,7 +27,7 @@ To setup the kiosk:
 6. Ensure that ```kiosk.sh``` is executable with `ls -al` 
    - If it isn't, run ```chmod +x kiosk.sh```
    
-7. run `sudo nano kiosk.sh` to change the DAKboard url. `ctrl + x` then `y` to save.
+7. run `sudo nano kiosk.sh` to change the DAKboard url.
 
 8. In the Ubuntu GUI, go to Settings > Users and ensure that automatic login is enabled
 
