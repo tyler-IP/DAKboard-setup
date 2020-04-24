@@ -15,7 +15,7 @@ To setup the kiosk:
 
 2. run ```chmod 644 kiosk.service && chown root:root kiosk.service```
 
-3. run ```nano kiosk.service```
+3. If the user is not ipadmin, run ```nano kiosk.service```
    - This will allow you to change the user it will run under. If the user is different from ipadmin, ensure that it is changed for ExecStart, User, & Group.
 
 4. run ```sudo mv kiosk.service /lib/systemd/system/kiosk.service```
