@@ -9,6 +9,8 @@ Designed to run on Ubuntu 20.04 LTS.
 
 Once Ubuntu is intsalled, run ```sudo apt update -y && sudo apt upgrade -y```
 
+Optional: For SSH access, run ```apt install openssh-server```
+
 To setup the kiosk:
 
 1. run ```sudo apt install unclutter xdotool chromium-browser```
@@ -27,4 +29,6 @@ To setup the kiosk:
    
 7. If the DAKboard URL is different from the default IP board, make the change within ```kiosk.sh```
 
-8. Lastly, in the Ubuntu GUI, go to Settings > Power and change Blank Screen to Never
+8. In the Ubuntu GUI, go to Settings > Users and ensure that automatic login is enabled
+
+9. While still in settings, go to Power and change Blank Screen to Never. Also ensure that Automatic Suspend is turned off.
