@@ -27,7 +27,7 @@ To setup the kiosk:
 6. Ensure that kiosk.sh is executable with `ls -al` 
    - If it isn't, run `chmod +x kiosk.sh`
    
-7. run `sudo nano kiosk.sh` to change the DAKboard url.
+7. run `sudo nano kiosk.sh` and change the DAKboard url within the script.
 
 8. In the Ubuntu GUI, go to Settings > Users and ensure that automatic login is enabled
 
