@@ -9,7 +9,7 @@ Designed to run on Ubuntu 20.04 LTS.
 
 Once Ubuntu is intsalled, run `sudo apt update -y && sudo apt upgrade -y`
 
-Optional: For SSH access, run `apt install openssh-server`
+Optional, but recommended: For SSH access, run `apt install openssh-server`
 
 To setup the kiosk:
 
